@@ -3,9 +3,10 @@ Tool for quick testing of NTS (Network Time Security) servers.<br><br>
 Windows(tm) 7+ x64 command-line (CLI) tool for testing and diagnosing NTP servers that implement the KE (Key Establishment) protocol of the Network Time Security (NTS) authentication mechanism.
 
 # Requirements
-Any MS Windows(tm) x64 platform (7, 10, 11, 2019+)
+CLI: MS Windows(tm) x64 platform (7+, 2019+) - Win 7 is supported.
+GUI: MS Windows(tm) x64 platform (8+, 2019+) - Win 7 is not supported.
 
-# Usage
+# Usage (cli)
 ```
 Usage: nts-tester.exe [OPTIONS] --server <SERVER>
 
@@ -26,7 +27,7 @@ Options:
   -h, --help                         Print help
   -V, --version                      Print version
 ```
-# Example
+# Example (cli)
 ```
 $nts-tester.exe --server nts1.ntp.hr
 === NTS-KE Handshake ===
@@ -66,7 +67,7 @@ $nts-tester.exe --server nts1.ntp.hr
   Time:        60.6ms
 ```
 # Author
-Marko Jurcevic <ntstimetools@crobiz.com> | Vesco informatika d.o.o. | Zagreb | Croatia 
+Marko Jurcevic | contact:<ntstimetools@crobiz.com> | Vesco informatika d.o.o. | Zagreb | Croatia 
 
 # License
 
