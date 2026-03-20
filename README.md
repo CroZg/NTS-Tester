@@ -1,6 +1,6 @@
 # NTS-Tester
 Tool for quick testing of NTS (Network Time Security) servers.<br><br>
-Windows(tm) 7+ x64 command-line tool for testing and diagnosing NTP servers that implement the KE (Key Establishment) protocol of the Network Time Security (NTS) authentication mechanism.
+Windows(tm) 7+ x64 command-line (CLI) tool for testing and diagnosing NTP servers that implement the KE (Key Establishment) protocol of the Network Time Security (NTS) authentication mechanism.
 
 # Requirements
 Any MS Windows(tm) x64 platform (7, 10, 11, 2019+)
